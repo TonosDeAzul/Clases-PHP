@@ -1,6 +1,6 @@
 <?php
 
-include_once("clases/Person.php");
+include_once("../clases/Person.php");
 
 class Model
 {
@@ -134,7 +134,7 @@ class Model
 
     $stament = trim($stament,  ", ");
 
-    echo $stament;
+    // echo $stament;
 
     $sql->execute();
 
